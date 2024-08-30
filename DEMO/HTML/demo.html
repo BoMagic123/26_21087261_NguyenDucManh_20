@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài 2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        #container {
+            width: 1300px;
+            margin: 0 auto;
+            border: 2px solid #ddd;
+            background-color: #fff;
+            display: flex;
+            min-height: 800px;
+        }
+
+        header {
+            width: 100%;
+            height: 150px;
+            background-image: url(../IMAGE/images.jpg);
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+            position: relative;
+        }
+
+        header p {
+            color: rgba(136, 255, 0, 0.819);
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        nav.top-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            background-color: #333;
+            border-bottom: 2px solid #ddd;
+        }
+
+        nav.top-nav a {
+            text-decoration: none;
+            color: rgb(204, 255, 0);
+            font-size: 17px;
+            margin: 0 20px;
+            padding: 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav.top-nav a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        nav.side-nav {
+            width: 200px;
+            background-color: #333;
+            padding: 20px;
+            box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav.side-nav a {
+            display: block;
+            text-decoration: none;
+            color: #0800fb;
+            font-size: 18px;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav.side-nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            flex: 1;
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        article img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        aside {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-left: 2px solid #ddd;
+        }
+
+        #s1, #s2 {
+            margin-bottom: 20px;
+        }
+
+        footer {
+    width: 88%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: #333333;
+    color: rgb(252, 182, 6);
+    border-top: 1px solid #ddd; 
+}
+
+
+        footer h1 {
+            font-size: 35px;
+            font-weight: bold;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <nav class="side-nav">
+            <a href="#"><strong> ITEM 1</strong></a>
+            <a href="#"><strong> ITEM 2</strong></a>
+            <a href="#"><strong> ITEM 3</strong></a>
+            <a href="#"><strong> ITEM 4</strong></a>
+        </nav>
+        <div class="main-content">
+            <header>
+                <p>Trường đại học Công nghiệp Sài Gòn</p>
+            </header>
+            <nav class="top-nav">
+                <a href="#"><strong>HOME</strong></a>
+                <a href="#"><strong>SERVICES</strong></a>
+                <a href="#"><strong>CONTACT</strong></a>
+                <a href="#"><strong>ABOUT</strong></a>
+                <a href="#"><strong>HELP</strong></a>
+            </nav>
+            <section>
+                <article id="a1">
+                    <h2>Five Week Course in London</h2>
+                    <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+                    <p>Bok Choi</p>
+                </article>
+                <article id="a2">
+                    <h2>Sauces Masterclass</h2>
+                    <p>One day workshop</p>
+                    <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
+                    <p>Teriyaki Sauce</p>
+                </article>
+            </section>
+           
+        </div>
+    </div>
+    <footer>
+        <h1>21087261_NguyenDucManh</h1>
+    </footer>
+</body>
+
+</html>
